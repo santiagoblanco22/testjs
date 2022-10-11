@@ -5,9 +5,9 @@ const scrollToBottom = () => {
     element.scrollTop = element.scrollHeight;
 }
 
-setTimeout(() => {
+setInterval(() => {
     scrollToBottom()           
-})
+}, 3000)
 
     scrollToBottom()           
            
