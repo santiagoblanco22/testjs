@@ -5,6 +5,12 @@ const scrollToBottom = () => {
     element.scrollTop = element.scrollHeight;
 }
 
-scrollToBottom()
+setTimeout(() => {
+    scrollToBottom()           
+})
+
+    scrollToBottom()           
+           
+
 
 
