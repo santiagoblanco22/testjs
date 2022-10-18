@@ -1,5 +1,5 @@
 const scrollToBottom = () => {
-    const element1 = document.getElementsByClassName('RepeatingGroup')[1];
+    const element1 = document.getElementsByClassName('RepeatingGroup')[0];
     const element = document.getElementsByClassName('RepeatingGroup')[0];
     console.log(element1)
     element1.scrollTop = element1.scrollHeight
